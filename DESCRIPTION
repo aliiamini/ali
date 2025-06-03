@@ -1,0 +1,14 @@
+Package: ali
+Title: Analysis-Friendly Linear Input
+Version: 0.0.0.9000
+Authors@R: person("Ali", "Amini", email = "you@example.com", role = c("aut", "cre"))
+Description: Preprocessing functions for preparing data: min-max normalization, correlation matrices, and multicollinearity detection (VIF).
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+    car,
+    stats,
+    utils
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
